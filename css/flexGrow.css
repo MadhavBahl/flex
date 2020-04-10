@@ -1,0 +1,48 @@
+body {
+    background-color: #6fb98f;
+}
+
+.head-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-container {
+    flex-direction: row;
+    align-items: flex-start;
+    width: 600px;
+}
+
+.flex-container > * {
+    width: 100px;
+}
+
+.sample1 > * {
+    flex-grow: 0;
+}
+
+.sample2 > * {
+    flex-grow: 1;
+}
+
+/* .sample3 {
+    margin:0;
+    padding: 0;
+} */
+
+/* .sample3 > * {
+    margin: 0;
+} */
+
+.sample3 div:nth-child(1) {
+    flex-grow: 1;
+}
+
+.sample3 div:nth-child(2) {
+    flex-grow: 1;
+}
+
+.sample3 div:nth-child(3) {
+    flex-grow: 4;
+}
